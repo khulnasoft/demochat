@@ -1,8 +1,8 @@
 FROM node:0.12-slim
 MAINTAINER SD Elements
 
-ENV PKG_JSON_URL=https://raw.githubusercontent.com/bahchiscodefresh/lets-chat/master/package.json \
-    TAR_GZ_URL=https://github.com/bahchiscodefresh/lets-chat/archive/master.tar.gz \
+ENV PKG_JSON_URL=https://raw.githubusercontent.com/bahchiskhulnasoft/lets-chat/master/package.json \
+    TAR_GZ_URL=https://github.com/bahchiskhulnasoft/lets-chat/archive/master.tar.gz \
     BUILD_DEPS='g++ gcc git make python' \
     LCB_PLUGINS='lets-chat-ldap lets-chat-s3'
 
